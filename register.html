@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Register</title>
+
+  <link rel="stylesheet" type="text/css" href="register.css" />
+</head>
+
+<body>
+  <div class="bg-image"></div>
+
+  <header>
+    <h1>Event Registration</h1>
+  </header>
+  <section id="details">
+    <form>
+      <div class="name">
+        <span>Your Name:</span>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+      </div>
+
+      <div class="email">
+        <span>Email:</span>
+        <input type="email" placeholder="examplename@example.com" required>
+      </div>
+
+      <div class="both-halves">
+        <div class="left-half">
+          <div class="phone">
+            <span>Phone:</span>
+            <input type="tel" placeholder="+00 00000 00000">
+          </div>
+          <div class="address">
+            <span>Address:</span>
+            <input type="text" placeholder="your address here..">
+          </div>
+        </div>
+        <div class="right-half">
+          <div class="city">
+            <span>City:</span>
+            <select>
+              <option value="">-- choose an option --</option>
+              <option value="nagpur">Nagpur</option>
+            </select>
+          </div>
+          <div class="state">
+            <span>State:</span>
+            <select>
+              <option value="">-- choose an option --</option>
+              <option value="maharashtra">Maharashtra</option>
+            </select>
+          </div>
+          <div class="college">
+            <span>College:</span>
+            <select>
+              <option value="">-- choose an option --</option>
+              <option value="rcoem">RCOEM</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="both-halves">
+        <div class="left-half">
+          <div class="gender">
+            <span>Gender:</span>
+            <div class="gender-entry">
+              <span>Female</span>
+              <input type="radio" name="gender" value="female">
+            </div>
+            <div class="gender-entry">
+              <span>Male</span>
+              <input type="radio" name="gender" value="male">
+            </div>
+            <div class="gender-entry">
+              <span>Others</span>
+              <input type="radio" name="gender" value="others">
+            </div>
+          </div>
+        </div>
+
+        <div class="right-half">
+          <div class="events">
+            <span>Events:</span>
+            <div class="event-entry">
+              <span>Imposter Khoj</span>
+              <input type="checkbox" name="event" value="imposter-khoj">
+            </div>
+            <div class="event-entry">
+              <span>Ejekt</span>
+              <input type="checkbox" name="event" value="ejekt">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="programme">
+        <span>Programme:</span>
+        <div class="programme-entry">
+          <span>M-Tech</span>
+          <input type="radio" name="programme" value="m-tech">
+        </div>
+        <div class="programme-entry">
+          <span>B-Tech</span>
+          <input type="radio" name="programme" value="b-tech">
+        </div>
+      </div>
+
+      <div class="submit">
+        <input type="submit" value="Submit">
+        </input>
+      </div>
+    </form>
+  </section>
+
+</body>
+
+</html>

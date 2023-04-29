@@ -1,0 +1,75 @@
+body {
+  background-color: #000000;
+}
+
+.bg-image {
+  /* background-image: url(https://cdn.wallpapersafari.com/40/80/i5Pgj1.png); */
+  /* background-image: url(https://wallpapercave.com/wp/wp2088515.jpg); */
+  /* background-image: url(https://wallpapercave.com/wp/wp3268608.jpg); */
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/000/688/467/original/abstract-flat-circles-background-vector.jpg); */
+  background-image: url(wp2088515.jpg);
+  background-size: cover;
+  /* backdrop-filter: blur(4px); */
+  filter: blur(20px);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #233d4dce;
+  padding: 20px;
+  color: white;
+}
+
+section {
+  padding: 40px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-size: 1.60rem;
+  font-weight: 300;
+  width: 20%;
+  background-color: #233d4dce;
+  color: white;
+}
+
+td {
+  text-align: center;
+  border: 1px;
+  color: white;
+  background-color: #15616d7e;
+}
+
+.alt td {
+  background-color: #4a4e69ae;
+}
+
+section h {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #233d4d;
+}
+
+#register span {
+  color: #ffffffce;
+  font-size: 1.5rem;
+}
+
+#register a {
+  text-decoration: none;
+  color: #ffffffce;
+  font-weight: 700;
+}

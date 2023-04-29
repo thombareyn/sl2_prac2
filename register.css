@@ -1,0 +1,169 @@
+body {
+  background-color: #000000;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.bg-image {
+  /* background-image: url(https://cdn.wallpapersafari.com/40/80/i5Pgj1.png); */
+  /* background-image: url(https://wallpapercave.com/wp/wp2088515.jpg); */
+  /* background-image: url(https://wallpapercave.com/wp/wp3268608.jpg); */
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/000/688/467/original/abstract-flat-circles-background-vector.jpg); */
+  background-image: url(wp2088515.jpg);
+  background-size: cover;
+  /* backdrop-filter: blur(4px); */
+  filter: blur(20px);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+header {
+  background-color: #233d4dce;
+  padding: 30px;
+  color: white;
+}
+
+form {
+  width: 1000px;
+  background-color: #4a4e69ae;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 100px;
+  color: white;
+}
+
+input,
+select {
+  background-color: #233d4dae;
+  border: 0px;
+  color: white;
+}
+
+select {
+  padding-left: 20px;
+}
+
+.email input {
+  width: calc(80% - 30px);
+  margin-left: 54px;
+}
+
+.address input {
+  height: 100px;
+  width: 90%;
+  margin-bottom: calc(var(--height) / 2);
+}
+
+.phone input {
+  margin-left: 48px;
+  width: 90%;
+}
+
+.address input {
+  margin-left: 34px;
+}
+
+.city select,
+.college select,
+.state select {
+  width: 68%;
+  height: var(--height);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.city select {
+  margin-left: 27px;
+}
+
+.college select {
+  margin-left: 1px;
+}
+
+.state select {
+  margin-left: 19px;
+}
+
+.left-half,
+.right-half {
+  width: 50%;
+}
+
+.right-half {
+  padding-left: 30px;
+}
+
+.both-halves {
+  display: flex;
+  flex-direction: row;
+}
+
+.gender input {
+  width: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.gender .gender-entry {
+  margin: auto;
+}
+
+.events .event-entry {
+  margin: auto;
+  width: 200px;
+}
+
+.event-entry input,
+.programme-entry input {
+  width: 20px;
+}
+
+.phone,
+.address,
+.email,
+.name,
+.city,
+.state,
+.college,
+.gender,
+.gender-entry,
+.programme,
+.programme-entry,
+.event-entry,
+.submit,
+.events {
+  display: flex;
+  flex-direction: row;
+  --height: 35px;
+}
+
+form input {
+  margin-left: 15px;
+  height: var(--height);
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 30px;
+  width: calc(39% - 30px);
+}
+
+form span {
+  padding: calc(var(--height) / 2);
+}
+
+.submit {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.submit input {
+  padding: 0px;
+  margin-bottom: 10px;
+}
